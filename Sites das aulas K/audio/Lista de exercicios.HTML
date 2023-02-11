@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de exercicios</title>
+</head>
+<body>
+    <style>
+    body{background-color: mediumorchid;}
+    h1{color: ghostwhite; text-align: center;}
+    p{color:ghostwhite; font-size: medium;}
+    ol{background-color: mediumorchid; padding: 0%;}
+    h2{color: ghostwhite;}
+    h4{color: ghostwhite;}
+    
+    </style>
+    <h1>Exercicios</h1>
+    <ol>
+    <li>Como comentar tags HTML?</li>
+    <li>Como criar um hiperlink?</li>
+    <li>Como criar uma abrevição ou um acrônimo?</li>
+    <li>Qual é a maneira correta de escrever o endereço em um documento HTML?</li>
+    <li>Como criar uma área dentro de um mapa de imagem</li>
+    <li>Criar um documento HTML que usa o elemento artigo</li>
+    <li>Criar um documento HTML que usa o elemnto side</li>
+    <li>Como incorporar áudio em um documento HTML?</li>
+    <li>Como escrever texto em negrito usando tags em HTML?</li>
+    <li>Como especificar a URL/alvo base para todas as URLs relativas em um documento?</li>
+    </ol>
+    <h1>Respostas</h1>
+    <ol>
+    <li>Inicia-se um comentário com (!–) e fecha com (–>). Os comentários podem ter muitas ou apenas uma linha.</li>
+    <li>Para criar um hiperlink escolha o texto ou a imagem que você deseja exibir como um hiperlink. Pressione Ctrl+K. Você também pode clicar com o botão direito do mouse no texto ou imagem e clicar em Link no menu de atalho.</li>
+    <li>O Elemento _HTML (abbr) _(ou Elemento de Abreviação HTML) representa uma abreviação e opcionalmente fornece uma descrição completa para ela. Se presente, o atributo title deve conter a descrição completa e apenas ela. Use o atributo title para definir a descrição completa da abreviação. Exemplo: (p)Obama é presidente dos (abbr title="Estados Unidos da América")EUA(/abbr)(/p) Resultado: Obama e presidente dos EUA.</li>
+    <li>A tag (address) em HTML é usada para escrever informações de contato de uma pessoa ou organização. Se a tag (address) for usada dentro da tag (body), ela representa as informações de contato do documento e se a tag (address) for usada dentro da tag (article), ela representa as informações de contato do artigo. O texto dentro da tag (address) será exibido em formato itálico. Algum navegador adicionando uma quebra de linha antes e depois do elemento de endereço.</li>
+    <li>A abordagem deste artigo é criar uma área dentro de um mapa de imagem usando uma tag <area> em um documento HTML. É usado para direcionar o usuário a diferentes links depois que o usuário clica nas partes mapeadas da imagem. É usado como uma tag filha da tag <map>. Não tem tag de fechamento e, portanto, é uma tag vazia para HTML.</li>
+    <li><article>
+        <h2>Google Chrome</h2>
+        <p>O Google Chrome é um navegador da web desenvolvido pelo Google, lançado em 2008. O Chrome é o navegador da web mais popular do mundo atualmente!</p>
+        </article></li>
+    <li><p>Eu e minha família passamos o ano novo em monguagua. Foi muito legal, tive um ótimo ano novo.</p>
+    <aside>
+    <h4>Monguagua</h4>
+    <p>Mongaguá é um município da Região Metropolitana da Baixada Santista, no estado de São Paulo, no Brasil.</p>
+    </aside></li>
+    <li>O elemento (audio) funciona conforme  abaixo. Um exemplo típico pode parecer assim:
+
+        (audio controls)
+          (source src="viper.mp3" type="audio/mp3")
+          (source src="viper.ogg" type="audio/ogg")
+          (p)Your browser doesn't support HTML5 audio. Here is a (a href="viper.mp3")link to the audio(/a) instead.(/p)
+        (/audio)</li>
+    <li>O elemento HTML <strong>(strong)</strong> dá ao texto uma forte importância, e é tipicamente mostrado em negrito.</li>
+    <li>A URL especifica o local de um destino armazenado em um computador local ou em rede, como um arquivo, um diretório, uma página HTML, uma imagem, um programa etc. Nesta discussão, a URL absoluta terá este formato:
+
+        (scheme://server/path/resource).
+        A URL relativa localiza um recurso usando uma URL absoluta como ponto inicial. Na verdade, a "URL completa" do destino é especificada concatenando as URLs absoluta e relativa. Em geral, uma URL relativa consiste apenas no path e, opcionalmente, no resource, mas não no scheme ou no server.</li>
+    </ol>
+    <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+   
+</body>
+</html>

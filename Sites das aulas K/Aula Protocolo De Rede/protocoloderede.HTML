@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tema 2</title>
+<h1>Tema 2: Protocolo De Rede</h1>
+<img src="rede.jpg" alt="">
+<h2>Introdução a Protocolos</h2>
+<p1>Afinal, o que é um protocolo? Os protocolos é uma tecnologia que permite a comunicação entre 
+    os computadores, ou seja, se tiver duas pessoas que falam em idiomas diferentes, não há 
+    possibilidade de ter uma comunicação nesse ambiente.</p1>
+<p1>Para haver comunicação necessita ter um tradutor, para que possa estabelecer uma 
+    comunicação entre essas pessoas, a função do protocolo é a mesma do tradutor, ele possibilita 
+    a comunicação entre os computadores.</p1>
+<p1>Protocolos é um conjunto de regras, e métodos que devem ser seguidos para enviar e receber 
+    informações em uma rede, é a forma que possibilita a comunicação entre os computadores</p1>
+<p1>Existem variados protocolos para executar distintas tarefas na rede como, para enviar e receber 
+    arquivos (FTP), testar a conectividade de rede (ICMP), acessando a internet para enviar e 
+    receber informações é enviando uma sucessão de protocolos como:</p1>
+    <ol>
+    <li>ARP;</li>
+    <li>HTTP;</li>
+    <li>FTP;</li>
+    <li>TCP;</li>
+    <li>ICMP;</li>
+    <li>IP;</li>
+    <li>SMTP;</li>
+    <li>Telnet;</li>
+    <li>UDP;</li>
+    <li>NNTP;</li>
+    </ol>
+    <h2>Função Dos Protocolos</h2>
+    <p1>Como sabemos o protocolo é um conjunto de regras, que se caracterizam ser mais regido por 
+        tópicos que os determinam, os tópicos são esses:
+        </p1>
+    <ul>
+    <li>(Sintaxe): É o padrão dos dados e a forma sequenciada em que os dados são demonstrados, 
+        ou seja, esses padrões que determinam a função do byte a byte, é como uma "gramática" do 
+        "idioma" utilizado na comunicação;</li>
+    <li>(Semântica): Representa um padrão dos dados (Sintaxe), para dar um significado à mensagem;</li>
+    <li>(Timing): Estabelece uma velocidade de transmissão dos "pacotes" (pedaços da mensagem), 
+        ele pretende definir uma rapidez/velocidade concebível de comunicação no qual possa ser 
+        sustentado em todas as partes que está se mantendo a comunicação.</li>
+    </ul>
+    <p1>O protocolo tem funções predeterminada para obter a comunicação entre os hosts:</p1>
+    <ol>
+    <li>(Endereçamento): Determina qual o destino da mensagem, para enviar uma carta necessita 
+        ter um destinatário para que a carta chega ao seu destino, o endereçamento tem o mesmo papel 
+        para qual seu host quer se comunicar;
+        </li>
+    <li>(Sequência e Numeração): Identifica as mensagens por meio de um número sequencial;</li>
+    <li>(Estabelecer a conexão): Constitui um canal lógico entre as duas pontas (Túnel) para 
+        estabelecer a troca das mensagens;</li>
+    <li>(Controle de erros): Idêntica e corrigi os erros durante a comunicação;</li>
+    <li>(Retransmissão): Se o sinal (ACK) não é recebido no destinatário, ou quando a mensagem 
+        não é recebida em seu destino;</li>
+    <li>(Confirmação de recebimento): Envia uma confirmação para cada pacote recebido (ACK);</li>
+    <li>(Conversão de Código): Faz um ajuste dos códigos de acordo com as particularidades do 
+        destinatário.</li>
+    </ol>
+    <p1>A grande maioria dos hosts e hardware de rede não falam a mesma língua, ou seja, se não houver um protocolo para fazer a (tradução) entre os hosts, não haverá comunicação. Cada protocolo é definido um padrão, existem basicamente dois tipos de padrão:</p1>
+    <ul>
+    <li>Facto: São padrões que são usados pela comunidade, principalmente por fabricantes quando 
+        lançam novos produtos, mas que ainda não foram aprovados por um comitê reconhecido, como 
+        ISO ou ANSI. Um exemplo é o protocolo IP;</li>
+    <li>Jure: São usadas pelos fabricantes quando lançam novos produtos, porém ainda não tem 
+        aprovação pelos comitês reconhecidos.</li>
+    </ul>
+    <p1>Os protocolos são reconhecidos pelos comitês regularizadores, um exemplo claro é o modelo 
+        OSI, passam pelas especificações pelo comitê avaliador RFC (request for change).</p1>
+    <h2>Compartilhamento de Recursos na rede</h2>
+    <p1>Em uma rede de computadores seja ela local ou global, temos a possibilidade de compartilhar 
+        recursos entre os hosts que estão conectados na rede, mesmo que essa rede não tenha acesso 
+        a internet, temos a possibilidade de compartilhar impressoras, arquivos, pastas, etc.</p1>
+    <p1>Se a rede local estiver conectada com a internet, as possibilidades de compartilhamento nas 
+        redes de computadores aumentam, pois podemos trocar informações com qualquer host que 
+        esteja localizado no globo e conectado com a internet.</p1>
+    <p1>Compartilhar Internet e serviço entre os hosts, modificou a maneira do mundo em se comunicar, 
+        vai de conversa on-line para videoconferência (envio de vídeo em tempo real), a internet nos 
+        possibilita resolver as nossas pendências do dia a dia, fazendo transações bancárias, compra e 
+        vendas de produtos ou serviços, utilizar as redes sociais para se conectar com as pessoas 
+        diferentes.</p1>
+    <p1>Tudo isso é possível, pois os protocolos permitem diferentes serviços nas redes de 
+        computadores, o importante é estudar e compreender como funciona os principais protocolos na 
+        rede.</p1>
+    <h1>Protocolos</h1>
+    <ol>
+    <li>O protocolo ARP, permite encontrar o endereço físico a partir do endereço IP da maquina alvo. Para tal, o protocolo usa um mecanismo de difusão (broadcast) na rede local, enviando uma solicitção a todas as maquinas de rede, sendo que a máquina alvo responde indincando o par do endereço IP/indereço físico</li>
+    <li>O Protocolo de Transferência de Hipertexto funciona segundo o princípio cliente-servidor. O navegador web atua como um cliente, enquanto o servidor web atua como um servidor HTTP. Para acessar um site, o navegador envia uma solicitação HTTP à porta 80 do servidor, que processa e responde com uma mensagem.</li>
+    <li>O FTP usa um servidor como o computador responsável por hospedar os arquivos. O cliente é o usuário que fará o acesso. A conexão é sempre autenticada com nome de usuário e senha, enquanto o servidor é geralmente acessado por um endereço de IP.</li>
+    <li>Para estabelecer uma conexão entre dispositivo e servidor, o protocolo TCP/IP usa um handshake de três vias. O dispositivo e o servidor devem sincronizar e reconhecer os pacotes antes do início da comunicação, então eles podem negociar, separar e transferir conexões.</li>
+    <li> Ao contrário do protocolo de internet (IP), o ICMP não está associado a um protocolo de camada de transporte como TCP ou UDP. Isso torna o ICMP um protocolo sem conexão: um dispositivo não precisa abrir uma conexão com outro dispositivo antes de enviar uma mensagem ICMP.</li>
+    <li>Um endereço IP é uma sequência de números separados por pontos. O endereço IP é representado por um conjunto de quatro números: por exemplo, 192.158.1.38. Cada número do conjunto pode variar entre 0 e 255. Ou seja, o intervalo de endereçamento IP vai de 0.0.0.0 a 255.255.255.255.</li>
+    <li>O protocolo SMTP funciona de maneira semelhante ao serviço postal. Imagine que o e-mail é uma carta. Ao encaminhar sua mensagem pela rede, primeiro há o encaminhamento ao servidor de e-mail de saída. Depois de verificar o endereço, o servidor reencaminha a mensagem ao destinatário, como se fosse o serviço de Correios.</li>
+    <li>O Telnet é usado para executar linhas de comando em um computador remoto. Ele trabalha verificando a disponibilidade de uma porta e, caso esteja aberta, solicita uma conexão. Como se trata de um protocolo, existe uma série de procedimentos e regras para padronizar a comunicação.</li>
+    <li>O protocolo UDP funciona de forma semelhante ao TCP, mas elimina todo o material de verificação de erros. Toda a comunicação de ida e volta introduz latência, tornando as coisas mais lentas. Quando um aplicativo usa UDP, os pacotes são enviados apenas para o destinatário.</li>
+    <li>NNTP ("Network News Transfer Protocol") não é um pacote de software, mas sim um standard usado na Internet. Ele é baseado em uma conexão serial, geralmente sobre TCP, entre um cliente, em qualquer lugar da rede, e um servidor, que mantém os artigos armazenados em disco.</li>
+    </ol>
+</head>
+<body>
+    
+</body>
+</html>
